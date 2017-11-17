@@ -20,8 +20,8 @@ class ImageApi extends Controller
     {
 
         $bucket = 'images';
-        $secretKey = 'A8vb3UPGRXXfh5hvcvHfBGLVcRUSRVDuY4RbOy1q';
-        $accessKey = 'lWvvVGZpbDI85oxvvWcgJonVt3Py3rAL9zz0g5XV';
+        $secretKey = '$secretKey';
+        $accessKey = '$accessKey';
         $auth = new Auth($accessKey, $secretKey);
 
         $token = $auth->uploadToken($bucket);
